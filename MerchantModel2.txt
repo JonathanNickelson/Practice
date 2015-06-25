@@ -30,7 +30,7 @@ namespace WebApplication1.Models
 
         [Required]
         [Display(Name ="Phone #")]
-        public int phoneNumber { get; set; }
+        public string phoneNumber { get; set; }
 
         [Required]
         [Display(Name = "Email")]
